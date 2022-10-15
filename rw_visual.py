@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 
 from random_walk import RandomWalk
+from spy_random_walk import SpyRandomWalk
 
 # Keep making new walks, as long as the program is active.
 while True:
     # Make a random walk.
-    rw = RandomWalk()
+    rw = SpyRandomWalk()
     rw.fill_walk()
 
     # Plot the points in the walk.
