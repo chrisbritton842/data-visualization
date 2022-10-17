@@ -26,5 +26,3 @@ x_axis_config = {'title': 'Result'}
 y_axis_config = {'title': 'Frequency of Result'}
 my_layout = Layout(title='Results of rolling one D6 1000 times', xaxis=x_axis_config, yaxis=y_axis_config)
 offline.plot({'data': data, 'layout': my_layout}, filename='d6.html')
-
-print(frequencies)
